@@ -19,7 +19,7 @@
                           <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                           <ul class="right hide-on-med-and-down">
                             <li><a href="/">Home</a></li>
-                            <li><a href="{{route('admin.cursos')}}">Sass</a></li>
+                            <li><a href="{{route('admin.cursos')}}">Cursos</a></li>
                           </ul>
                         </div>
                       </nav>
