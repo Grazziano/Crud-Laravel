@@ -13,6 +13,10 @@
 
 Route::get('/', ['as' => 'site.home', 'uses' => 'Site\HomeController@index']);
 
+Route::get('/login', ['as' => 'site.login', 'uses' => 'Site\LoginController@index']);
+Route::get('/login/sair', ['as' => 'site.login.sair', 'uses' => 'Site\LoginController@sair']);
+Route::post('/login/entrar', ['as' => 'site.login.entrar', 'uses' => 'Site\LoginController@entrar']);
+
 Route::get('/contato{id?}', ['uses' => 'ContatoController@index']);
 
 Route::post('/contato', ['uses' => 'ContatoController@criar']);
