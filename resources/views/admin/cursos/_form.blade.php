@@ -37,7 +37,7 @@
 
         <p>
                 <label>
-                  <input type="checkbox" {{isset($registro->publicado)&&$registro->publicado == 'sim' ? 'checked' : ''}} value="true"  />
+                  <input type="checkbox" name="publicado" {{isset($registro->publicado)&&$registro->publicado == 'sim' ? 'checked' : ''}} value="true"  />
                   <span>Publicar ?</span>
                 </label>
               </p>
